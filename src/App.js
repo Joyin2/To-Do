@@ -1,10 +1,16 @@
-
+import { Button } from 'react-bootstrap';
+import Navigation from './components/Navbar';
+import Home from "./pages/Home"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    <h1>React JS</h1>
+    <div>
+      <Navigation/>
+      <Home/>
+  
+
+
     </div>
   );
 }
